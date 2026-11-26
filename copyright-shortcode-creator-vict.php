@@ -2,8 +2,8 @@
 /**
 * Plugin Name: Copyright shortcode creator VICT
 * Description: Shortcodes to show the current year, the copyright logo and/or the sitename wherever you want it.
-* Version: 1.9
-* Requires at least: 6.0
+* Version: 1.10
+* Requires at least: 7.0
 * Requires PHP: 8.0
 * Author: Voordelig ICT
 * Author URI: https://voordeligict.nl 
@@ -17,7 +17,7 @@ function vict_showOnlyYear() {
     return $year;
   }
  add_shortcode('vict_y', 'vict_showOnlyYear');
-//example: 2023
+//example: 2027
 
 
 function vict_showNameAndCopyright() {
@@ -37,7 +37,7 @@ function vict_NameandlogoandYear() {
 		return $NameLogoYear;
 }
  add_shortcode('vict_ncy', 'vict_NameandlogoandYear');
-//example: siteName © 2024
+//example: siteName © 2027
 
 
 function vict_nameAndCopyrightAndYearAndRights() {
@@ -48,4 +48,4 @@ function vict_nameAndCopyrightAndYearAndRights() {
 		return $copyLogoYear;
 }
  add_shortcode('vict_ncyr', 'vict_nameAndCopyrightAndYearAndRights');
-//example: siteName © 2024 - All rights reserved
+//example: siteName © 2027 - All rights reserved

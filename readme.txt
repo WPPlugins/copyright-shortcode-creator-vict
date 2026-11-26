@@ -2,10 +2,10 @@
 Contributors: voordeligict
 Tags: copyright, current year, shortcode, voordelig ict, footer
 Donate link: https://voordeligict.nl
-Requires at least: 6.0
-Tested up to: 7.1
+Requires at least: 7.0
+Tested up to: 7.2
 Requires PHP: 8.0
-Stable tag: 1.9
+Stable tag: 1.10
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ A: Wherever you want. In the header, the footer or in a post. Wherever you can a
 2. Example of the shortcode on the websites front end.
 
 == Changelog ==
+= 1.10 =
+* Update: updated code for WordPress version 7.2.
+
 = 1.9 =
 * Update: updated code for WordPress version 7.1.
 
@@ -70,6 +73,9 @@ A: Wherever you want. In the header, the footer or in a post. Wherever you can a
 * first publication of the plugin
 
 == Upgrade Notice ==
+= 1.10 =
+Updated plug-in for use with WordPress version 7.2. Please update the plug-in so you always have the latest version.
+
 = 1.9 =
 Updated plug-in for use with WordPress version 7.1. Please update the plug-in so you always have the latest version.
 
